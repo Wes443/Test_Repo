@@ -6,8 +6,13 @@
 #to switch to a different branch
 # git checkout [branch name]
 
-#to delete a branch
+#to delete a branch (on your system)
 # git branch -d [branch name to delete]
+
+#to delete a branch (on the git repo)
+#set git repo to your origin -> git remote add origin [insert link to git repo]
+
+#git push origin --delete [branch name to delete]
 
 print("Hello World!")
 
